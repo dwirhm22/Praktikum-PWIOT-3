@@ -1,0 +1,151 @@
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Warna & Tema */
+body {
+    background: linear-gradient(to right, #F8D7E3, #1E2A50);
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1E2A50;
+    padding: 15px 30px;
+    border-radius: 12px;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+header .logo span {
+    color: #FF69B4;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FF69B4;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    color: #1E2A50;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.hero-text .btn {
+    margin-top: 20px;
+    background: #FF69B4;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.hero-text .btn:hover {
+    background: #1E2A50;
+    color: #FF69B4;
+}
+
+.hero-img img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature-card {
+    background: #1E2A50;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    color: #FF69B4;
+}
+
+.feature-card p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+    background: #1E2A50;
+    border-radius: 12px;
+}
